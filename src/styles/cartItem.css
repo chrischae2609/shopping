@@ -1,0 +1,73 @@
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+.cartItem {
+    margin-left: 20px;
+    max-width: 800px;
+}
+
+.cartProductLink {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+
+.cartProductLink:hover,
+.cartProductLink:active,
+.cartProductLink:focus {
+  text-decoration: none;
+  color: inherit;
+  transform: none;
+}
+
+
+.productCartImg {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(224, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productCartImg img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.cartDesc p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.cartDesc {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.cartBtns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantBtns button {
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    padding: 0;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+}
+
+.quantBtns button:hover{
+    background: rgb(240, 239, 239);
+}

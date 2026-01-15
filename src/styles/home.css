@@ -1,0 +1,14 @@
+.homeSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeSection p {
+    font-size: 1.1rem;
+}
+
+.azamonInfo {
+    display: flex;
+    gap: 50px;
+}

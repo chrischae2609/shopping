@@ -1,0 +1,21 @@
+
+.shopPage {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.shopPage h1 {
+    padding-left: 20px;
+    margin-bottom: 30px;
+    color: rgb(41, 46, 118);
+}
+
+.productGrid {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 0 50px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
